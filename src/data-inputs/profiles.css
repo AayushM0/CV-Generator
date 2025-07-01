@@ -1,0 +1,47 @@
+.profile-container{
+    display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 92%;
+  max-width: 800px;
+  padding: 1rem;
+  border: 2px solid black;
+  margin: 3px;
+  height: 195px;
+}
+
+h3{
+  font-size: 1.5em;
+  
+  margin: 0px;
+  margin-bottom: 0px;
+}
+
+.basic-icon{
+  margin: auto;
+  position: relative;
+  top: 3px;
+}
+.Networks{
+    display: flex;
+  gap: 1rem;
+  width: 100%;
+
+}
+
+.Networks .input-area {
+  flex: 1;
+  min-width: 0;
+}
+
+.linkedin{
+    width: 226px;
+
+}
+.github{
+    width: 226px;
+}
+
+h4{
+    margin: 10px 0px;
+}
