@@ -14,7 +14,7 @@
 .input-row {
   display: flex;
   gap: 1rem;
-  width: 100%;
+  min-width: 530px;
 }
 
 .input-row .input-area {

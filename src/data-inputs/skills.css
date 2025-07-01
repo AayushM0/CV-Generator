@@ -6,3 +6,24 @@
   border: 2px solid black;
   margin: 3px;
   height: auto;}
+
+  .skill-input-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .input-line{
+    display: flex;
+    width: 530px;
+    
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+  }
+
+  .remove2{
+    height: 22px;
+    width: 25px;
+    position: relative;
+    top: 4px;
+  }

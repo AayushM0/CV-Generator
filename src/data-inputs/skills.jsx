@@ -6,16 +6,16 @@ function Skills({onchange,basicdata,addSkill,removeSkill}){
    
     return (
         <div className="skills-container">
-            <h3 className="heading"><GiSkills />Skills</h3>
+            <h3 className="heading"><GiSkills /> Skills</h3>
             <div className="skill-input-container">
                 {basicdata.map((skill,index)=>(
                     <div key={index} className="input-line">
                     <Textinput value={skill} remove={(e)=>{removeSkill(index,"skills")}} type="text" onchange={(e)=>{onchange(e,null,"skills",null,index)}}/>
-                    <button onClick={(e)=>{removeSkill(index,"skills")}}>-</button>
+                    <button className="remove2" onClick={(e)=>{removeSkill(index,"skills")}}>-</button>
                     </div>
                 ))}
             </div>
-            <button onClick={addSkill}>+</button>
+            <button className="add" onClick={addSkill}>Add</button>
         </div>
     )
 }

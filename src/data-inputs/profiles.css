@@ -10,6 +10,10 @@
   height: 195px;
 }
 
+h4{
+  font-size: 1.1em;
+}
+
 h3{
   font-size: 1.5em;
   
@@ -25,7 +29,8 @@ h3{
 .Networks{
     display: flex;
   gap: 1rem;
-  width: 100%;
+  width: 550px;
+  min-width: 550px
 
 }
 
@@ -35,11 +40,11 @@ h3{
 }
 
 .linkedin{
-    width: 226px;
+    width: 257px;
 
 }
 .github{
-    width: 226px;
+    width: 257px;
 }
 
 h4{

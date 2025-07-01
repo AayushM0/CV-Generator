@@ -15,13 +15,22 @@
 .input{
     display: flex;
     flex-direction: column;
-    min-width: 510px;
-    width: 510px;
-    height: 100%;
+    min-width: 530px;
+    width: 530px;
+    height: 92%;
+    margin: 20px;
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.463);
+    
+    
 }
 
+
 /* optional styling just so you can see the two halves */
-.input           { border: 2px solid tomato; 
+.input           {  
 overflow-y: scroll;
 overflow-x: hidden;}
 .resume-container{ border: 2px solid royalblue;
@@ -47,6 +56,25 @@ overflow-x: none;
 
 html::-webkit-scrollbar {
   display: none; 
+}
+
+.input::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* Example: thin, modern scrollbar */
+.input::-webkit-scrollbar {
+  width: 8px;
+}
+.input::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.input::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+.input::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 

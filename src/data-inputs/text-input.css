@@ -1,6 +1,10 @@
 h1{
-    font-size: 1.3em;
+    font-size: 1em;
     margin: 5px 0px;
     
 }
 
+textarea{
+    width: 447px;
+    resize: none;
+}
