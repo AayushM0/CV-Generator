@@ -68,3 +68,12 @@
 .score-exp{
     height: 20px;
 }
+
+@media(max-width : 400px){
+    .institution-date{
+        height: 30px;
+    }
+    .study-type{
+        height: 30px;
+    }
+}

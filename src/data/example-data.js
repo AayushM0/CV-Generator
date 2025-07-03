@@ -76,8 +76,7 @@ const data = {
       issuer: "One Stop English Education",
       date: "August 2023 - December 2023",
       website: "https://progate.com/path_certificate/9014e4a1qvi8zw",
-      summary:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis numquam iure ad magni tenetur explicabo, voluptates illum tempora possimus atque, illo eius neque, nesciunt mollitia qui quia nemoeos.",
+      summary:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis numquam iure ad magni tenetur explicabo, voluptates illum tempora possimus atque, illo eius neque, nesciunt mollitia qui quia nemoeos.",
     },
     
     

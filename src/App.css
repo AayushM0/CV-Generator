@@ -148,3 +148,109 @@ body {
 .main::-webkit-scrollbar {
   display: none; 
 }
+
+
+
+/* Base Styles */
+.body-div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  z-index: 1000;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column; /* Stack on mobile by default */
+  gap: 20px;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.input, .resume-container {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.463);
+  box-sizing: border-box;
+}
+
+.page-container {
+  padding: 15px;
+}
+
+/* Scrollbar styling (keep your existing scrollbar styles) */
+
+/* Mobile First Approach */
+@media (max-width: 768px) {
+
+  .main{
+    height: 300vh;
+  }
+
+  .input {
+    min-width: unset;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .resume-container {
+    margin-top: 20px;
+    height: 200%;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .main{
+    height: 400vh;
+  }
+
+  .input {
+    min-width: unset;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .resume-container {
+    margin-top: 20px;
+    height: 200%;
+  }
+}
+
+/* Tablet and Desktop Styles */
+@media (min-width: 769px) {
+  .main {
+    flex-direction: row; /* Side by side on larger screens */
+    gap: 30px;
+    padding: 20px;
+    height: 200%; /* Adjust based on navbar height */
+  }
+
+  .input {
+    min-width: 400px;
+    width: 400px;
+    height: calc(100vh - 100px);
+    margin-left: 0;
+  }
+
+  .resume-container {
+    flex: 1;
+    height: calc(100vh);
+    margin: 0;
+  }
+}
+
+/* Large Desktop Screens */
+@media (min-width: 1200px) {
+  .input {
+    min-width: 530px;
+    width: 530px;
+  }
+}

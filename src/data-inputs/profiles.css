@@ -29,8 +29,7 @@ h3{
 .Networks{
     display: flex;
   gap: 1rem;
-  width: 550px;
-  min-width: 550px
+  width: 100%;
 
 }
 

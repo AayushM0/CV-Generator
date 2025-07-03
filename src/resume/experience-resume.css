@@ -68,3 +68,12 @@
 .summary-p{
     margin:0px;
 }
+
+@media(max-width : 400px){
+    .company-date{
+        height: 30px;
+    }
+    .position-location{
+        height: 30px;
+    }
+}

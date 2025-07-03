@@ -5,8 +5,12 @@ h1{
 }
 
 textarea{
-    width: 447px;
+    width: 89%;
     resize: none;
     white-space: normal;
     overflow-wrap: break-word;
+}
+
+input{
+    width: 100%;
 }
