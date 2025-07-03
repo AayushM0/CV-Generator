@@ -17,12 +17,17 @@ import SkillsResume from "./resume/skills-resume";
 import Skills from "./data-inputs/skills";
 import CertificationResume from "./resume/certification-resume";
 import Certification from "./data-inputs/certification";
+import NavBar from "./components/navbar";
 function App(){
 
   const {formData,onchange,addSkill,removeSkill,addEx}=useComponents();
 
 
-    return (<div className="main">
+    return (
+    
+    <div className="body-div">
+    <NavBar className="nav" />
+    <div className="main">
 
     <div className="input">
         <BasicData onchange={onchange}></BasicData>
@@ -47,7 +52,8 @@ function App(){
       <SkillsResume basicdata={formData.skills}/>
       <CertificationResume basicdata={formData.certifications}/>
       </div>
-    </div></div>)
+    </div></div>
+    </div>)
 }
 
 export default App;

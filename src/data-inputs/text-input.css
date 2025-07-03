@@ -7,4 +7,6 @@ h1{
 textarea{
     width: 447px;
     resize: none;
+    white-space: normal;
+    overflow-wrap: break-word;
 }

@@ -8,17 +8,18 @@ const data = {
     website: "",
   },
   summary:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis numquam iure ad magni tenetur explicabo, voluptates illum tempora possimus atque, illo eius neque, nesciunt mollitia qui quia nemoeos.",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis numquam iure ad magni tenetur explicabo, voluptates illum tempora possimus atque, illo eius neque, nesciunt mollitia qui quia nemoeos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis numquam iure ad magni tenetur explicabo, voluptates illum tempora possimus atque, illo eius neque, nesciunt mollitia qui quia nemoeos.",
+
   profiles: [
     {
       network: "linkedin",
       website: "https://www.linkedin.com/in/john-doe/",
-      username: "john-doe",
+      username: "John-doe",
     },
     {
       network: "github",
       website: "https://github.com/john-doe",
-      username: "john-doe",
+      username: "John-doe",
     },
   ],
   experience: [

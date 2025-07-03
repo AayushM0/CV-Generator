@@ -1,0 +1,74 @@
+/* .education-resume-container{
+    border-bottom: 1px solid black;
+} */
+
+.certification-resume-container{
+    border-bottom: 1px solid black;
+}
+
+.certifications-resume{
+    font-size: 1.1em;
+    margin: 10px 0px;
+
+}
+
+.certification-data{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+.name-issuer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    height: 20px;
+}
+
+.name-cer{
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0px;
+    display: flex;justify-content: center;
+    align-items: center;
+}
+
+.issuer-cer{
+    display: flex;justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.date-website{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    height: 20px;
+}
+
+.date-cer{
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0px;
+    display: flex;justify-content: center;
+    align-items: center;
+}
+
+.link-cer{
+    display: flex;justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-weight: 500;
+    text-decoration: none;
+
+
+}
+
+.summary-exp{
+    margin-top: 5px;
+    height: 50px;
+}
+
+

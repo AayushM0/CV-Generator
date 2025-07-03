@@ -1,0 +1,32 @@
+.profiles{
+    border-bottom: 1px solid black;
+}
+
+
+
+.linkedin-resume,.github-resume{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    height: 30px;
+    
+}
+
+.github-resume{
+    margin-bottom: 20px;
+}
+
+.profile-head{
+    font-size: 1.1em;
+
+}
+
+.profile-link{
+    text-decoration: none;
+    font-size: 1.05em;
+    
+}
+
+.profile{
+    margin-bottom: 10px;
+}

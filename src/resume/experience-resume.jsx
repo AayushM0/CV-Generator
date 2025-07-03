@@ -1,11 +1,10 @@
-
-
+import "./experience-resume.css"
 
 function ExperienceResume({basicdata}){
 
     return (
         <div className="experience-resume-container">
-            <h3 className="experience">Experience</h3>
+            <h4 className="experience-resume">Experience</h4>
             {basicdata.map((exp,index) => (
                 <div className="comp1">
 

@@ -1,0 +1,17 @@
+.summary{
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.data-container{
+    width: 100%;
+    white-space: pre-wrap;        /* keep any real line‑breaks the user types */
+    overflow-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.summary-container-resume{
+    border-bottom: 1px solid black;
+}
+

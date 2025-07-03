@@ -1,0 +1,20 @@
+
+
+.skills-resume-container{
+    border-bottom: 1px solid black;
+}
+
+.skills-resume{
+    font-size: 1.1em;
+    margin: 10px 0px;
+}
+
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+

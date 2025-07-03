@@ -11,7 +11,7 @@ function BasicResume({basicdata}){
             <h4>{basicdata.email}</h4>
         </div>
         </div>
-        <hr className="divider" />
+        
         </div>
     )
 
