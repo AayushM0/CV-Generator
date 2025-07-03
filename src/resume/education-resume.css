@@ -69,7 +69,7 @@
     height: 20px;
 }
 
-@media(max-width : 400px){
+@media(max-width : 450px){
     .institution-date{
         height: 30px;
     }
