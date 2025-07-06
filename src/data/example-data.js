@@ -1,10 +1,10 @@
 const data = {
   basic: {
-    fullName: "John Doe",
-    headline: "Fullstack Web Developer",
-    location: "New York",
-    phoneNumber: "000-0000000",
-    email: "johnDoe@email.com",
+    fullName: "Aayush Mittal",
+    headline: "Frontend Developer",
+    location: "Noida",
+    phoneNumber: "8607664409",
+    email: "aayushmittal620@gmail.com",
     website: "",
   },
   summary:
@@ -13,30 +13,30 @@ const data = {
   profiles: [
     {
       network: "linkedin",
-      website: "https://www.linkedin.com/in/john-doe/",
-      username: "John-doe",
+      website: "https://www.linkedin.com/in/aayush-mittal-5997ba31b/",
+      username: "Aayush Mittal",
     },
     {
       network: "github",
-      website: "https://github.com/john-doe",
-      username: "John-doe",
+      website: "https://github.com/AayushM0",
+      username: "AayushM0",
     },
   ],
   experience: [
     {
-      company: "PT mencari cinta sejati",
+      company: "XYZ Company",
       date: "August 2017 - January 2024",
-      position: "Fullstack Dev",
-      location: "New York",
+      position: "Frontend Dev",
+      location: "Noida",
       website: "",
       summary:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis numquam iure ad magni tenetur explicabo, voluptates illum tempora possimus atque, illo eius neque, nesciunt mollitia qui quia nemoeos.",
     },
     {
-      company: "PT Tekno Sejahtera",
+      company: "XYZ Company",
       date: "August 2017 - January 2024",
-      position: "Fullstack Dev",
-      location: "New York",
+      position: "Frontend Dev",
+      location: "Noida",
       website: "",
       summary:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis numquam iure ad magni tenetur explicabo, voluptates illum tempora possimus atque, illo eius neque, nesciunt mollitia qui quia nemoeos.",
@@ -44,8 +44,8 @@ const data = {
   ],
   education: [
     {
-      institution: "Harvard University",
-      date: "August 2017 - November 2021",
+      institution: "IIIT Kota",
+      date: "August 2024 - November 2028",
       study: "Computer Science",
       type: "Bachelor Degree",
       score: "3.82 GPA",
@@ -54,9 +54,9 @@ const data = {
   projects: [
     {
       name: "My Project",
-      description: "My Project built with love",
-      date: "August 2017 - January 2018",
-      website: "https://bima-taruna.github.io/portfolio-web/",
+      description: "CV-Generator",
+      date: "June 2025 - July 2025",
+      website: "https://github.com/AayushM0/CV-Generator",
       summary:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis numquam iure ad magni tenetur explicabo, voluptates illum tempora possimus atque, illo eius neque, nesciunt mollitia qui quia nemoeos.",
     },
@@ -65,23 +65,22 @@ const data = {
     "Javascript",
     "HTML",
     "CSS",
-    "PHP",
-    "Laravel",
-    "Android Studio",
     "React JS",
+    "C++",
+    "Python",
   ],
   certifications: [
     {
-      name: "TOEFL",
-      issuer: "One Stop English Education",
-      date: "August 2023 - December 2023",
-      website: "https://progate.com/path_certificate/9014e4a1qvi8zw",
+      name: "XY",
+      issuer: "Certificate.com",
+      date: "July 2025",
+      website: "www.google.com",
       summary:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis numquam iure ad magni tenetur explicabo, voluptates illum tempora possimus atque, illo eius neque, nesciunt mollitia qui quia nemoeos.",
     },
     
     
   ],
-  languages: ["Indonesia", "English", "Japan", "Deustch"],
+  languages: [ "English", "Hindi"],
 };
 
 export default data;

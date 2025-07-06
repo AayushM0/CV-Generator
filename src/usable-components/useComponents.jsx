@@ -102,10 +102,10 @@ const addEx = (section) => {
         setFormData(prev => ({
         ...prev,
         experience: [...prev.experience, {
-      company: "PT mencari cinta sejati",
+      company: "XYZ Company",
       date: "August 2017 - January 2024",
-      position: "Fullstack Dev",
-      location: "New York",
+      position: "Frontend Dev",
+      location: "Noida",
       website: "",
       summary:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis numquam iure ad magni tenetur explicabo, voluptates illum tempora possimus atque, illo eius neque, nesciunt mollitia qui quia nemoeos.",
@@ -117,9 +117,9 @@ const addEx = (section) => {
         ...prev,
         projects: [...prev.projects, {
       name: "My Project",
-      description: "My Project built with love",
-      date: "August 2017 - January 2018",
-      website: "https://bima-taruna.github.io/portfolio-web/",
+      description: "CV-Generator",
+      date: "June 2025 - July 2025",
+      website: "https://github.com/AayushM0/CV-Generator",
       summary:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis numquam iure ad magni tenetur explicabo, voluptates illum tempora possimus atque, illo eius neque, nesciunt mollitia qui quia nemoeos.",
     }] 
@@ -129,12 +129,11 @@ const addEx = (section) => {
         setFormData(prev => ({
         ...prev,
         certifications: [...prev.certifications, {
-      name: "TOEFL",
-      issuer: "One Stop English Education",
-      date: "August 2023 - December 2023",
-      website: "https://progate.com/path_certificate/9014e4a1qvi8zw",
-      summary:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis numquam iure ad magni tenetur explicabo, voluptates illum tempora possimus atque, illo eius neque, nesciunt mollitia qui quia nemoeos.",
+      name: "XY",
+      issuer: "Certificate.com",
+      date: "July 2025",
+      website: "www.google.com",
+      summary:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis numquam iure ad magni tenetur explicabo, voluptates illum tempora possimus atque, illo eius neque, nesciunt mollitia qui quia nemoeos.",
     }] 
     }));
     }
